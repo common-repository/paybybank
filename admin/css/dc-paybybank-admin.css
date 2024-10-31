@@ -1,0 +1,34 @@
+/**
+ * CSS for the settings page
+ */
+.dc-paybybank-instructions {
+    background: #fff;
+    box-shadow: 0 0 6px #00000033;
+    padding: 20px;
+}
+
+.dc-paybybank-instructions > * {
+    display: inline-block;
+}
+
+.dc-paybybank-instructions-title {
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.dc-paybybank-instructions-url {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.paybybank-order-info {
+	margin-top: 20px;
+	padding: 0 0 5px 8px;
+	border-left: 2px solid #c7c7c7;
+}
+
+.paybybank-order-info .button {
+	margin-top: 4px;
+}

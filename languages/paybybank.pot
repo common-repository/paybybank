@@ -1,0 +1,399 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PayByBank\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-09 13:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: paybybank"
+
+#: includes/class-dc-paybybank-gateway.php:258
+#, php-format
+msgid "%1$s (Error code: %2$s)"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Add PayByBank as a payment gateway for WooCommerce. Create automatically "
+"payment RF codes and get notified instantly about successful payments from "
+"customers."
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:35
+msgid "Allows payments with PayByBank."
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:168
+msgid ""
+"An error occurred when PayByBank API sent a status update to our webhook."
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:181
+msgid "An error occurred while creating the RF code"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:369
+msgid "An error occurred while performing a mass status update"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:96
+msgid "API Key"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:497
+msgid "Async orders status update finished successfully"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:475
+msgid "Async orders status update started for these pending orders:"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:203
+msgid "Checkout with PayByBank payment."
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:609
+msgid "Click to copy"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:124
+msgid "Description"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:148
+msgid "Enable extra email for \"Paid by PayByBank\" status"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:153
+msgid "Enable logging"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:155
+msgid "Enable logging for PayByBank plugin's actions"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:70
+msgid "Enable PayByBank Payment"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:104
+msgid "Enable test mode"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:68
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:261
+#, php-format
+msgid "Error code: %s"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:200
+#, php-format
+msgid "Error: Eshop order with merchantOrderId #%s not found."
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:420
+#: includes/class-dc-paybybank-gateway.php:289
+msgid "Error: Unable to connect with PayByBank system. Please try again."
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:290
+#, php-format
+msgid "Error: Unexpected order status received (%s)"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:119
+msgid "Extra Fee"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:771
+msgid "Failed"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:134
+#: includes/class-dc-paybybank-gateway.php:142
+msgid "HTML tags are allowed."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/paybybank/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.paybybank.eu/"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:149
+msgid ""
+"If you enable this, an extra email will be sent to customer (and admin) when "
+"an order status changes to \"Paid by PayByBank\" status, to inform about the "
+"successful payment."
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:80
+msgid "Initial Order Status"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:130
+msgid "Instructions for \"Thank you\" page"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:138
+msgid "Instructions for Customer Emails"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:140
+msgid ""
+"Instructions that will be added to customer emails. You can use the "
+"placeholder {pbb_rf_code} to display the RF code."
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:132
+msgid ""
+"Instructions that will be added to the thank you page. You can use the "
+"placeholder {pbb_rf_code} to display the RF code."
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:133
+#: includes/class-dc-paybybank-gateway.php:141
+msgid "Leave empty to cancel the display of this message."
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:360
+msgid "Mass status update started for these pending orders:"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:102
+msgid "Mode"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:472
+msgid "No orders have a status update pending."
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:374
+msgid "No orders require status update."
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:250
+msgid "Order paid successfully by PayByBank."
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:258
+msgid ""
+"Order paid successfully by PayByBank. Status changed automatically after "
+"client payment."
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:845
+#: admin/class-dc-paybybank-admin.php:871
+msgctxt "Order status"
+msgid "Paid by PayByBank"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:88
+msgid "Order Status after Successful Payment"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:768
+msgid "Paid"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:907
+#: admin/class-dc-paybybank-admin.php:908
+msgid "Paid by PayByBank"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:850
+#, php-format
+msgid "Paid by PayByBank <span class=\"count\">(%s)</span>"
+msgid_plural "Paid by PayByBank <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-dc-paybybank-gateway.php:135
+#: includes/class-dc-paybybank-gateway.php:143
+msgid ""
+"Pay for your order via e-banking. Select Payments > Single Payment RF and "
+"enter the payment code {pbb_rf_code} and the exact amount. \n"
+"\n"
+"Upon payment completion, we will be notified automatically and ship your "
+"order. There are no additional costs if you pay via a Greek bank."
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:127
+msgid ""
+"Pay your order, with an RF code from the safe environment of your e-banking "
+"with no extra charges!"
+msgstr ""
+
+#. Author of the plugin
+#: includes/class-dc-paybybank-gateway.php:34
+msgid "PayByBank"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:77
+msgid "PayByBank - Bank Transfer"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:286
+msgid "PayByBank error: Problem with bankPaymentCode"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:570
+msgid "PayByBank Fee"
+msgstr ""
+
+#. Name of the plugin
+msgid "PayByBank Integration for WooCommerce"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:615
+#: admin/class-dc-paybybank-admin.php:652
+#: admin/class-dc-paybybank-admin.php:660
+msgid "PayByBank Reference Code"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:724
+msgid "PayByBank RF Code"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:109
+msgid "Payment Code Life (hours)"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:126
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:726
+msgid "Payment status"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:265
+#: admin/class-dc-paybybank-admin.php:268
+msgid "Payment via PayByBank failed."
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:765
+msgid "Pending"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:105
+msgid "Please deselect it after you add the live API Key."
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:730
+msgid "Request status update"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:195
+#, php-format
+msgid "RF code created successfully: %s"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:146
+msgid "Send extra email when Paid"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:121
+msgid ""
+"Set the extra fee (if applicable) for this payment method. Leave empty or "
+"zero if you don't want to add extra fee for this payment method"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:969
+msgid "Settings"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:179
+#, php-format
+msgid "Successful update (via webhook) from PayByBank API for order #%s"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:98
+msgid ""
+"The API key provided by PayByBank. Do not change it unless you are in "
+"alignment with PayByBank."
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:377
+msgid "The following orders required a status update:"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:111
+msgid ""
+"The life of Payment Code in <strong>hours</strong>. Default is 720 hours (30 "
+"days)"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:814
+msgid "The payment is still PENDING"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:827
+#, php-format
+msgid "The payment status is: %s"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:374
+#: admin/class-dc-paybybank-admin.php:377
+msgid "The sync with PayByBank system for the mass status update is completed."
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:105
+msgid "This changes the payment mode from Test to Live."
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:76
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:156
+msgid ""
+"This option should be disabled, except for when testing or debugging an "
+"issue."
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:83
+msgid ""
+"This will be the initial status when an order is created and PayByBank is "
+"selected as payment method."
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:91
+msgid ""
+"This will be the updated status when the customer completes the payment "
+"successfully. The status will change automatically when PayByBank API sends "
+"an update about a payment."
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:74
+msgid "Title"
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:774
+msgid "Unknown status"
+msgstr ""
+
+#: includes/class-dc-paybybank-gateway.php:157
+#, php-format
+msgid ""
+"You can check the logs at <a href=\"%s\" target=\"_blank\">WooCommerce > "
+"Status > Logs</a>. PayByBank's log files have \"paybybank\" as a source."
+msgstr ""
+
+#: admin/class-dc-paybybank-admin.php:120
+msgid "You have to send the following URL address to PayByBank."
+msgstr ""
